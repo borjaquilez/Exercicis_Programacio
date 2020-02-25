@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercici_4_4</title>
+</head>
+<body>
+    Realiza el control de acceso a una caja fuerte. 
+    La combinación será un número de 4 cifras.
+    El programa nos pedirá la combinación para abrirla. 
+    Si no acertamos, se nos mostrará el mensaje “Lo siento, esa no es la combinación” 
+    y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”. 
+    Tendremos cuatro oportunidades para abrir la caja fuerte
+    <?php
+    $secret=$_POST["secret"];
+    $good="1234";
+    $seeform=true;
+    $counter=$_POST["counter"];
+    
+    if(isset($secret==1234)){
+        echo "Es usted un fenómeno y ha podido abrir la caja fuerte!";
+        $seeform=false;
+    }
+    else if{
+        echo "<p>Esa no es la combinación, <strong>Madarfacar</strong>!!!</p>";
+        
+    }
+    
+    
+    if ($seeform==true){
+        ?>
+        <form action="Exercici_4_5.html" method="post">
+            <h1>INTRODUZCA AQUÍ EL NÚMERO SECRETO DE CUATRO CIFRAS DE LA CAJA FUERTE</h1>
+            <p><input type="password" name="secret" minlength="4" maxlength="4" placeholder="Introduzca su password"></p>
+            <p><input type="hidden" name="counter"></p>
+            <p><input type="submit" value="enviar"></p>
+            <?php $counter=$counter+1;
+            ?>
+        </form>
+    }
+    
+</body>
+</html>
