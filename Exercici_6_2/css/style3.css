@@ -1,0 +1,25 @@
+.superbox{
+    height: 500px;
+    padding-top: 55px;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    background: url(../img/armory_2.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Trade Winds';
+    color:  white;
+    background-size: cover;
+
+}
+.checks{
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.trade{
+    font-family: 'Trade Winds';
+}
+body{
+    font-family: 'Roboto';
+}
+    

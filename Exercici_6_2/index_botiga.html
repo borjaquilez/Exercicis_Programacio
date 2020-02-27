@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>The Spicy Cauldron</title>
+    <link rel="icon" href="https://img.pngio.com/halloween-black-cauldron-png-clipart-image-gallery-yopriceville-cauldron-png-4122_3481.png" type="image/gif" sizes="16x16">
     <!-- Required meta tags Aquí un comentari de prova!!!-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,30 +10,51 @@
     <meta name="keywords" content="weapons,armors,helmets,potions,shields,robes.">
     <meta name="author" content="Franz Hauser">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Trade+Winds&display=swap" rel="stylesheet">
-
+  
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Trade+Winds&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
   <body>
-    <main role="main">
-    <section class="superbox text-center fons">
+
+    <!--RESPONSIVE NAVBAR DE MORE!-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">The Spicy Cauldron</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index_botiga.html">Shop</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="superbox text-center">
       <div class="container">
-        <h1 id="spicy">The Spicy Cauldron</h1>
-        <p class="lead">Your Fantastic Armory!</p>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="spicy-text">
+              <h1>The Spicy Cauldron</h1>
+              <p class="lead">Your Fantastic Armory!</p>
+            </div>
+          </div>
+        </div>
       </div>
       </section>
     
-    <div class="album py-5 bg-light">
+    <!--FORM-->
+    <div class="album py-5 bg-light"> 
       <form action="Exercici_6_2.php" method="get">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/arrow_of_slaying.jpeg" alt="Arrow of Slaying" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Arrow of Slaying - 10 G.P. (each)</text>
+              <img src="img/arrow_of_slaying.jpg" alt="Arrow of Slaying" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
+                <title>Arrow of Slaying</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Arrow of Slaying - 10 G.P. (each)</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
@@ -40,8 +62,8 @@
                   Once an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.
                 </p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item[]" value="10"></p>
-                  <input type="hidden" name="item_nom[]" value="Arrow of Slaying">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="10"></p>
+                  <input type="hidden" name="item_name[]" value="Arrow of Slaying">
                 </div>
               </div>
             </div>
@@ -49,10 +71,9 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/staff_of_charming.jpeg" alt="Staff of Charming" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
-              
+              <img src="img/staff_of_charming.jpg" alt="Staff of Charming" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
               <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Staff Of Charming - 290 G.P.</text>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Staff Of Charming - 290 G.P.</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
@@ -61,7 +82,8 @@
                   The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff. <br><br><br>
                 </p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item[]" value="290"></p>
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="290"></p>
+                  <input type="hidden" name="item_name[]" value="Staff of Charming">
                 </div>
               </div>
             </div>
@@ -69,9 +91,9 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/vorpal_sword.jpeg" alt="Vorpal Sword" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
+              <img src="img/vorpal_sword.jpg" alt="Vorpal Sword" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Vorpal Sword - 1583 G.P.</text>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Vorpal Sword - 1583 G.P.</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
@@ -79,8 +101,8 @@
                   When you attack a creature and roll a 20, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. <br>
                   A magical creature instead takes an extra 6d8 slashing damage from the hit.</p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item[]" value="1583"></p>
-                  <input type="hidden" name="item_nom[]" value="Vorpal Sword">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="1583"></p>
+                  <input type="hidden" name="item_name[]" value="Vorpal Sword">
                 </div>
               </div>
             </div>
@@ -88,9 +110,9 @@
           
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/bag_of_holding.jpeg" alt="Bag Of Holding" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
+              <img src="img/bag_of_holding.jpg" alt="Bag Of Holding" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Bag Of Holding - 722 G.P.</text>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Bag Of Holding - 722 G.P.</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
@@ -99,7 +121,8 @@
                   If the bag is overloaded it is destroyed, and its contents are scattered in the Astral Plane. <br>
                   Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane.</p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item[]" value="722"></p>
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="722"></p>
+                  <input type="hidden" name="item_name[]" value="Bag of Holding">
                 </div>
               </div>
             </div>
@@ -107,19 +130,19 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/dwarven_plate.jpeg" alt="Dwarven Plate" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
+              <img src="img/dwarven_plate.jpg" alt="Dwarven Plate" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Dwarven plate - 3895 G.P.</text>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Dwarven plate - 3895 G.P.</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
                   While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet. <br>
                   Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. <br>
                   Buckles and straps distribute the weight over the body.
-
                 </p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item[]" value="3895"></p>
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="3895"></p>
+                  <input type="hidden" name="item_name[]" value="Dwarven Plate">
                 </div>
               </div>
             </div>
@@ -127,15 +150,17 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="img/ring_of_invisibility.jpeg" alt="Ring Of Invisibility" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
+              <img src="img/ring_of_invisibility.jpg" alt="Ring Of Invisibility" class="card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"> 
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder" x="50%" y="50%" fill="#eceeef" dy=".3em">Ring Of Invisibility - 789 G.P.</text>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text class="text-center font-weight-bolder trade" x="50%" y="50%" fill="#eceeef" dy=".3em">Ring Of Invisibility - 789 G.P.</text>
               </svg>
               <div class="card-body">
                 <p class="card-text">
                   While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.                </p>
                 <div class="checks">
-                  <p>Add to my Chart! <input type="checkbox" name="item" value="589"></p>
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item" value="589"></p>
+                  <input type="hidden" name="item_name[]" value="Ring of Invisibility">
+
                 </div>
               </div>
             </div>
@@ -143,22 +168,10 @@
 
         </div>
       </div>
-      <div class="checkbox mb-3">
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Go to Your Cart Now and Get your Discount!</button>
-      </div>
     </form>
     </div>
-
     
-    </main>
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back To Top</a>
-        </p>
-        <p>This Shop is amazing, more items will come ASAP!</p>
-      </div>
-    </footer>
+    
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

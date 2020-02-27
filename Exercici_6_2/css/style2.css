@@ -1,0 +1,29 @@
+.fons{
+    background: url(../img/armory.jpg);
+}
+.superbox{
+    padding: 180px;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+.checks{
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+#spicy{
+    color: aliceblue;
+}
+h1{
+    font-family: 'Trade Winds', ;
+}
+p{
+    font-family: 'Roboto', ;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: aliceblue;
+  }
+  
