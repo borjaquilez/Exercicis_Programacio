@@ -28,11 +28,20 @@ body{
 }
 
 .error{
-    background: url(img/error.jpg);
+    background-image: url(img/error.jpg);
     display: -webkit-flex;
     min-height: 100vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    position: relative;
+    word-wrap: break-word;
+    background-color: #3e85ce;
+    box-sizing: inherit;
+    font-family: 'Trade Winds';
+    font-size: 1rem;
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 
