@@ -27,5 +27,13 @@ body{
     margin: auto;
 }
 
+.error{
+    background: url(img/error.jpg);
+    display: -webkit-flex;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 
     
