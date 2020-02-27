@@ -14,12 +14,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Trade+Winds&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style3.css">
 
 </head>
   <body>
 
-    <!--RESPONSIVE NAVBAR DE MORE!-->
+    <!--UNCANNY RESPONSIVE NAVBAR!-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <a class="navbar-brand" href="#">The Spicy Cauldron</a>
       <ul class="navbar-nav">
@@ -32,11 +32,12 @@
       </ul>
     </nav>
 
+    <!--A MIGHTY HEADER BOX!-->
     <section class="superbox text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-            <div class="spicy-text">
+            <div class="center">
               <h1>The Spicy Cauldron</h1>
               <p class="lead">Your Fantastic Armory!</p>
             </div>
@@ -45,7 +46,7 @@
       </div>
       </section>
     
-    <!--FORM-->
+    <!--AWESOME FORMULARY-->
     <div class="album py-5 bg-light"> 
       <form action="Exercici_6_2.php" method="get">
       <div class="container">
@@ -62,8 +63,14 @@
                   Once an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.
                 </p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="10"></p>
-                  <input type="hidden" name="item_name[]" value="Arrow of Slaying">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[0]" value="10"></p>
+                  <input type="hidden" name="item_name[0]" value="Arrow of Slaying">
+                  <select name="item_quantity[0]">
+                    <option value="5">5 pack</option>
+                    <option value="10" selected>10 Pack</option>
+                    <option value="50">50 pack</option>
+                  </select>
+
                 </div>
               </div>
             </div>
@@ -82,8 +89,9 @@
                   The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff. <br><br><br>
                 </p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="290"></p>
-                  <input type="hidden" name="item_name[]" value="Staff of Charming">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[1]" value="290"></p>
+                  <input type="hidden" name="item_name[1]" value="Staff of Charming">
+                  </select>
                 </div>
               </div>
             </div>
@@ -101,8 +109,8 @@
                   When you attack a creature and roll a 20, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. <br>
                   A magical creature instead takes an extra 6d8 slashing damage from the hit.</p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="1583"></p>
-                  <input type="hidden" name="item_name[]" value="Vorpal Sword">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[2]" value="1583"></p>
+                  <input type="hidden" name="item_name[2]" value="Vorpal Sword">
                 </div>
               </div>
             </div>
@@ -121,8 +129,8 @@
                   If the bag is overloaded it is destroyed, and its contents are scattered in the Astral Plane. <br>
                   Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane.</p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="722"></p>
-                  <input type="hidden" name="item_name[]" value="Bag of Holding">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[3]" value="722"></p>
+                  <input type="hidden" name="item_name[3]" value="Bag of Holding">
                 </div>
               </div>
             </div>
@@ -141,8 +149,8 @@
                   Buckles and straps distribute the weight over the body.
                 </p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[]" value="3895"></p>
-                  <input type="hidden" name="item_name[]" value="Dwarven Plate">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[4]" value="3895"></p>
+                  <input type="hidden" name="item_name[4]" value="Dwarven Plate">
                 </div>
               </div>
             </div>
@@ -158,20 +166,32 @@
                 <p class="card-text">
                   While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.                </p>
                 <div class="checks">
-                  <p class="trade">Add to my Chart! <input type="checkbox" name="item" value="589"></p>
-                  <input type="hidden" name="item_name[]" value="Ring of Invisibility">
+                  <p class="trade">Add to my Chart! <input type="checkbox" name="item[5]" value="589"></p>
+                  <input type="hidden" name="item_name[5]" value="Ring of Invisibility">
 
                 </div>
               </div>
             </div>
           </div>
-
         </div>
+        <!--AMAZING SUBMIT BUTTON!-->      
+      <button type="submit" class="btn btn-primary center">Buy Now!</button>
+
       </div>
+
     </form>
     </div>
     
-    
+
+<!--SPECTACULAR FOOTER!-->
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back To Top</a>
+        </p>
+        <p>This Shop is amazing, more items will come ASAP!</p>
+      </div>
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
