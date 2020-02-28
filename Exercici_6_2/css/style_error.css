@@ -1,7 +1,7 @@
 @import "lesshat";
 @import url(https://fonts.googleapis.com/css?family=Trade+Winds&display=swap);
 html{
-    background: url(http://dndspeak.com/wp-content/uploads/2018/02/548c06b07fa745ec8bbfcf01beee89e0.jpg) no-repeat center center fixed;
+    background: url(../img/error_1_b.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Trade Winds';
 }
@@ -40,10 +40,6 @@ a {
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease; 
-
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    
     opacity: 1;
     }
 
