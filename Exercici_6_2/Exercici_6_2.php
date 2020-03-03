@@ -34,7 +34,7 @@ $total=0;
 
     if ($total<=1000){
         echo "You are an scrooge an miserable person... Spent more money, you idiot!<br>
-        I won't apply any discount to this mean price... YOU OWE ME $total!";
+        I won't apply any discount to this mean price... Me debes $total!";
     }elseif ($total>1000 and $total<=5000){
         echo "I'm applying a 10% discount, because you're a good client. You've spent $total Gold pieces!<br>
         Your amazing total amount, discount aplied is:"; 
