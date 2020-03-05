@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+=======
+h1{
+    font-family: 'Trade Winds';
+}
+
+.h1head{
+    font-weight: 700;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2{
+    font-family: 'Trade Winds';
+}
+h3{
+    font-family: 'Trade Winds';
+}
+p{
+    font-family: 'Roboto';
+
+}
+.superbox{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+.checks{
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.carousel {
+    background:#007aeb;
+  }
+  
+  /*
+  Forces image to be 100% width and not max width of 100%
+  */
+  .carousel-item .img-fluid {
+    width:100%;
+  }
+  
+  /* 
+  anchors are inline so you need ot make them block to go full width
+  */
+  .carousel-item a {
+    display: block;
+    width:100%;
+  }
+  .superhead{
+      height: 2000px;
+      width: 500px;
+  }
+
+  .masthead{
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+    color: white;
+  }
+  .masthead-heading{
+      font-size: 4rem;
+      line-height:3.5rem;
+  }
+
+  .upperbg{
+      background: url(../img/armory_2.jpg);
+  }
+>>>>>>> 8b35bc59fd7a2678bcf95c64b0ca70081a6131d0

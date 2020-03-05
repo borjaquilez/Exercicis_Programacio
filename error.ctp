@@ -1,28 +1,6 @@
 <!doctype html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
-    <title>The Spicy Cauldron</title>
-    <link rel="icon" href="https://img.pngio.com/halloween-black-cauldron-png-clipart-image-gallery-yopriceville-cauldron-png-4122_3481.png" type="image/gif" sizes="16x16">
-    <!-- Required meta tags Aquí un comentari de prova!!!-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="El Caldero Caliente: ¡Los mejores productos para la vida en el medievo!">
-    <meta name="keywords" content="weapons,armors,helmets,potions,shields,robes.">
-    <meta name="author" content="Franz Hauser">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Trade+Winds&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style3.css">
-  </head>
-  <body>
-      <div class="error container">
-          
-      </div>
-      
-=======
     <head>
         <title>The Spicy Cauldron</title>
         <link rel="icon" href="https://img.pngio.com/halloween-black-cauldron-png-clipart-image-gallery-yopriceville-cauldron-png-4122_3481.png" type="image/gif" sizes="16x16">
@@ -37,19 +15,20 @@
         <!-- Bootstrap CSS -->
         <link href="https://fonts.googleapis.com/css?family=Roboto|Trade+Winds&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style_error.css">
+        <link rel="stylesheet" href="css/style.css">
     
     </head>
   <body>
-    <div class="error">
-        <h1>404 error!</h1>
-        <h2>Page not found!</h2>
-        <p>You're too drunk to find our Amazing Shop!</p>
-        <a href="javascript:history.back()" class="btn btn-primary">Please go back to the previous page</a>
-    </div>  
-
-
->>>>>>> 8b35bc59fd7a2678bcf95c64b0ca70081a6131d0
+    <?php
+    $var=mt_rand(0,1,3);//Etiqueta pels números aleatoris ("rand" de random!)
+    echo $var;
+    if($var==0)
+    {
+        echo '<img src="https://sarahspetcare.net/wp-content/uploads/2019/08/surprised-looking-dog_1600.jpg">';
+    }else{
+        echo '<img src="https://takingonhealthy.com/wp-content/uploads/2019/05/mob_TOHhero_MansBestFriend_1334x630_2.jpg">';
+    }
+    ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
